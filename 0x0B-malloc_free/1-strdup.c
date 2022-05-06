@@ -39,7 +39,7 @@ char *_strdup(char *str)
 	{
 		nstr[i] = str[i];
 	}
-	nstr[len] = '\0';
+	       nstr[len] = '\0';
 	return (nstr);
 
 }
