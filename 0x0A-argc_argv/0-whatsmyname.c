@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - is a function that prints the name.
@@ -7,11 +8,11 @@
  *Return: Returns always success.
  **/
 
- int main(int argc, char *argv[])
- {  
+int main(int argc, char *argv[])
+{
  int i = argc - argc;
 
- printf("%s\n", argv[i]);
+printf("%s\n", argv[i]);
 
- return (0);
- }
+return (0);
+}
